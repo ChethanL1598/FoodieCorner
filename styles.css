@@ -16,7 +16,7 @@
 
 .navbar-brand{
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 2.5em;
     text-transform: uppercase;
     color: white;
 }
@@ -43,7 +43,7 @@
 
 .btn:hover{
     background: rgb(13, 82, 146) !important;
-    color: #262626 !important;
+    color: white !important;
     border-radius: 5px;
     transition: all 0.6s ease 0s;
 }
@@ -58,18 +58,20 @@
 }
 
 .main h2{
-    font-size: 2.6em;
+    font-size: 4em;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
+    padding-left: 60px;
 }
 
 .main p{
-    margin-top: 1em;
+    margin-top: 0.5em;
     padding: 0;
     font-size: 16px;
     color: white;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
+    padding-left: 40px;
 }
   
 .main .readMore{
@@ -78,6 +80,32 @@
     border-radius: 5px;
     padding: 10px 20px;
     text-decoration: none;
+    margin-left: 500px;
 }
 
-  
+.main2 .card-img-top{
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.main2 .card{
+    border-radius: 50px;
+    height: fit-content;
+    width: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.1) 8px 8px 16px 2px;
+}
+.main2 .card-body{
+    padding: 25px;
+    margin-top: -15px;
+}
+.main2 .btn-primary{
+    border-radius: 50px;
+    width: 120px;
+}
+.main2 .btn-primary:hover{
+    background-color: rgb(13, 82, 146);
+    border: none;
+}
+.main2 h3,h5{
+    color: rgb(0, 91, 228);
+}
