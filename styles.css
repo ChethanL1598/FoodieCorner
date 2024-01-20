@@ -58,7 +58,7 @@
 }
 
 .main h2{
-    font-size: 4em;
+    font-size: 4.5em;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
@@ -68,7 +68,7 @@
 .main p{
     margin-top: 0.5em;
     padding: 0;
-    font-size: 16px;
+    font-size: 25px;
     color: white;
     padding-bottom: 30px;
     padding-left: 40px;
@@ -90,8 +90,6 @@
 
 .main2 .card{
     border-radius: 50px;
-    height: fit-content;
-    width: fit-content;
     box-shadow: rgba(0, 0, 0, 0.1) 8px 8px 16px 2px;
 }
 .main2 .card-body{
