@@ -88,6 +88,7 @@
 .main2 .card-img-top{
     border-radius: 50px;
     padding: 20px;
+    min-height: 250px;
 }
 
 .main2 .text-center{
@@ -97,7 +98,9 @@
 
 .main2 .card{
     border-radius: 50px;
-    box-shadow: rgba(0, 0, 0, 0.1) 8px 8px 16px 2px;
+    background: linear-gradient(145deg, #64a6c2, #77c5e7);
+    box-shadow:  5px 5px 20px #406b7d,
+                 -5px -5px 20px #9effff;
 }
 .main2 .card-body{
     padding: 25px;
@@ -112,5 +115,5 @@
     border: none;
 }
 .main2 h3,h5{
-    color: rgb(0, 91, 228);
+    color: white !important
 }
